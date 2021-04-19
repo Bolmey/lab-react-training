@@ -28,3 +28,4 @@ function IdCard(props) {
 }
 
 export default IdCard;
+

@@ -16,7 +16,8 @@ function Greeting(props) {
             border: "black 2px solid",
             marginTop: "10px",
             textAlign: "left",
-            paddingLeft: "5px"
+            paddingLeft: "5px",
+            backgroundColor: "green"
         }}>
             {greeting} {props.children}
         </div>
