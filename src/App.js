@@ -4,7 +4,13 @@ import IdCard from './IdCard';
 import Greeting from './Greeting';
 import Random from './Random';
 import BoxColor from './BoxColor';
-import CreditCard from './CreditCard'
+import CreditCard from './CreditCard';
+import LikeButton from './LikeButton';
+import ClickablePicture from './ClickablePicture';
+import Dice from './Dice';
+import Carousel from './Carousel';
+import NumberTable from './NumberTable';
+
 
 function App() {
   return (
@@ -68,10 +74,12 @@ function App() {
 
 
 
+      <LikeButton />
+      <ClickablePicture />
+      <Dice />
 
-
-
-
+      <Carousel />
+      <NumberTable limit={12} />
 
 
     </div>
